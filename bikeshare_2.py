@@ -16,13 +16,13 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-    # Get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs.
+    # Get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs!
 
 
-    # Get user input for month (all, january, february, ... , june).
+    # Get user input for month (all, january, february, ... , june)!
 
 
-    # Get user input for day of week (all, monday, tuesday, ... sunday).
+    # Get user input for day of week (all, monday, tuesday, ... sunday)!
 
 
     print('-'*40)
@@ -51,13 +51,13 @@ def time_stats(df):
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
 
-    # Display the most common month.
+    # Display the most common month!
 
 
-    # Display the most common day of week.
+    # Display the most common day of week!
 
 
-    # Display the most common start hour.
+    # Display the most common start hour!
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -70,13 +70,13 @@ def station_stats(df):
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
 
-    # Display most commonly used start station.
+    # Display most commonly used start station!
 
 
-    # Display most commonly used end station.
+    # Display most commonly used end station!
 
 
-    # Display most frequent combination of start station and end station trip.
+    # Display most frequent combination of start station and end station trip!
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -89,11 +89,10 @@ def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    # Display total travel time.
+    # Display total travel time!
 
 
-    # Display mean travel time.
-
+    # Display mean travel time!
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -105,13 +104,13 @@ def user_stats(df):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
-    # Display counts of user types.
+    # Display counts of user types!
 
 
-    # Display counts of gender.
+    # Display counts of gender!
 
 
-    # Display earliest, most recent, and most common year of birth.
+    # Display earliest, most recent, and most common year of birth!
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
